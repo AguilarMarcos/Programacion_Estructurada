@@ -29,7 +29,7 @@ def solicitarDatos1():
 
 
 #3.- Funcion que recibe parametros y no regresa valor
-def solicitarDatos2(nom,tel):
+def solicitarDatos2(nom, tel):
     nombre=nom
     telefono=tel
     print(f"nombre: {nombre} y su telefono: {telefono}") 
@@ -53,9 +53,10 @@ def solicitarDatos4(nom,tel):
 
 solicitarDatos1()
 
+print("\nFunción 3:")
 nombre=input("Escribe el nombre: ")
 telefono=input("Escribe el telefono: ")
-solicitarDatos3(nombre,telefono)
+solicitarDatos3(nombre, telefono)
 
 nom,tel=solicitarDatos2()
 print(f"\t\nLos datos de la Agenda son:\n Nombre: {nom}\n Telefono:{tel}")
