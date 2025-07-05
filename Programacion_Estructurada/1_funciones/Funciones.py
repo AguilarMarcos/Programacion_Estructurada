@@ -20,7 +20,6 @@
    4.- Funcion que recibe parametros y regresa valor
 
 """
-
 #1.- Funcion que no recibe parametros y no regresa valor
 def solicitarDatos1():
     nombre=input("nombre:")
@@ -29,14 +28,14 @@ def solicitarDatos1():
 
 
 #3.- Funcion que recibe parametros y no regresa valor
-def solicitarDatos2(nom, tel):
+def solicitarDatos3(nom, tel):    
     nombre=nom
     telefono=tel
     print(f"nombre: {nombre} y su telefono: {telefono}") 
 
 
 #2.- Funcion que no recibe parametros y regresa valor
-def solicitarDatos3():
+def solicitarDatos2():
     nombre=input("nombre:")
     telefono=input("telefono:")
     return nombre,telefono 
@@ -53,7 +52,7 @@ def solicitarDatos4(nom,tel):
 
 solicitarDatos1()
 
-print("\nFunción 3:")
+
 nombre=input("Escribe el nombre: ")
 telefono=input("Escribe el telefono: ")
 solicitarDatos3(nombre, telefono)

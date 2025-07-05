@@ -53,4 +53,13 @@ restricciones
 1-con estructuras e control
 2-con funciones
 """
+# Función que imprime la tabla de multiplicar de un número dado
+def imprimir_tabla(numero):
+    print(f"Tabla de multiplicar del {numero}")
+    for i in range(1, 11):  # Estructura de control: bucle for
+        resultado = numero * i
+        print(f"{numero} x {i} = {resultado}")
+
+# Llamada a la función con el número 2
+imprimir_tabla(2)
 

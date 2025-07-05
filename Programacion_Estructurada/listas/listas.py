@@ -1,25 +1,21 @@
 #ejemplo 1 crear una lista de numeros e imprimir el contenido
 import os
 os.system("cls")
+
 numeros=[520,650,350]
 
 #1er forma
 print(numeros)
 
 #2ed forma
-
 for i in numeros:
     print(i)
 
 #3er forma
-
 for i in range(0,len(numeros)):
   print(numeros[i])
 
-
-
 #ejemplo 2 crear una lista de palabras y posteriormente buscar la coincidencia de una palabra
-
 os.system("cls")
 
 palabras=("casa","carro","porche","ram","moto")
@@ -64,7 +60,6 @@ while opc=="si":
     opc=input("¿eseas utilizar otro numero (si/no)").lower()
 
 print(numeros)
-
 
 #ejemplo 4 crear una lista multidimensional (matriz) que almacene el nombre y telefono de 4 personas
 
